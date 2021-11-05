@@ -4,6 +4,7 @@ import Cookies from 'js-cookie'
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux'
 import { setAuthAction } from './redux/actions/auth.action';
+import PlusBtn from './components/helpers/plus_btn/PlusBtn';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
      <Navbar/> 
+     <PlusBtn/>
     </>
   )
 }

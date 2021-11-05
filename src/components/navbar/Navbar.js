@@ -48,7 +48,7 @@ function Navbar() {
         setOpen={setOpenModal}
         component={<LogoutModal />}
       />
-      <div className="border-b-2">
+      <div className="border-b-2 shadow-md">
         <div className="xs:mx-5 mx-2 my-3 flex justify-between items-center">
           {!searchClick && (
             <p className="animate__animated animate__fadeInLeft text-2xl font-semibold italic cursor-pointer">

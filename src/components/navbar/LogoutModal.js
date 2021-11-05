@@ -26,7 +26,7 @@ function LogoutModal() {
         </div>
       </div>
       <button
-        className="bg-red-500 w-full text-white font-semibold text-xl p-2 rounded-lg mt-5 outline-none"
+        className="bg-black w-full text-white font-semibold text-xl p-2 rounded-lg mt-5 outline-none"
         onClick={handleLogout}
       >
         Logout
